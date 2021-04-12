@@ -1,0 +1,2 @@
+float64 pedal1_value
+float64 pedal2_value

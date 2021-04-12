@@ -1,0 +1,5 @@
+# Result Robotran Files
+*.anim
+*.res
+#ignore other projects
+src/double_piano

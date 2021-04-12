@@ -1,0 +1,12 @@
+<launch>
+
+  <node 
+           pkg="ros_rob" 
+           name="Haptic_Simu" 
+           type="launch_haptic_simulator.py"
+           output="screen"
+           required="true"
+         />
+
+
+</launch>

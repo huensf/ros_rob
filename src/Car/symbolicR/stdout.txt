@@ -1,0 +1,290 @@
+
+##############################################################
+#	file3.gen 01/04/2021 15:04:07    messages
+##############################################################
+ ------------------------------- 
+  ROBOTRAN - Symbolic Generator 
+  Version 6.6 (build : february 22, 2008) 
+  Pr. Paul FISETTE - 1990..1994 
+  Dr. Tony POSTIAU - 2000..2004 
+ ------------------------------- 
+Symbolic generation file : /usr/local/robotran/users/LFSAB1504/upload/file3.gen
+Project : /usr/local/robotran/users/LFSAB1504/upload/Car.mbs
+F 8 : Constraints Vector (h) and Jacobian Matrix (Jac) 
+nombre de contraintes �lmimin�es : 2
+Symbolic Equations Generation...Done
+Equations list processing... 
+Selecting usefull equations 
+Building result equations list... 
+Removing useless equations... 
+305 useless equations removed 
+305 Equations removed from memory 
+Substitution of variables with a single occurence 
+Counting operations ... 
+Building hierarchical structure... 
+Equations list processing...Done 
+Printing Equations... 
+Printing Equations...Done 
+Deallocating Memory...  
+432 Equations removed from memory 
+Removing 6768 expressions... 
+0 expressions remaining in memory 
+
+--
+Done
+
+##############################################################
+#	file7.gen 01/04/2021 15:04:07    messages
+##############################################################
+ ------------------------------- 
+  ROBOTRAN - Symbolic Generator 
+  Version 6.6 (build : february 22, 2008) 
+  Pr. Paul FISETTE - 1990..1994 
+  Dr. Tony POSTIAU - 2000..2004 
+ ------------------------------- 
+Symbolic generation file : /usr/local/robotran/users/LFSAB1504/upload/file7.gen
+Project : /usr/local/robotran/users/LFSAB1504/upload/Car.mbs
+F 2 : Inverse Dynamics : RNEA
+Symbolic Equations Generation...Done
+Equations list processing... 
+Selecting usefull equations 
+Building result equations list... 
+Removing useless equations... 
+676 useless equations removed 
+676 Equations removed from memory 
+Substitution of variables with a single occurence 
+Counting operations ... 
+Building hierarchical structure... 
+Equations list processing...Done 
+Printing Equations... 
+Printing Equations...Done 
+Deallocating Memory...  
+494 Equations removed from memory 
+Removing 9691 expressions... 
+0 expressions remaining in memory 
+
+--
+Done
+
+##############################################################
+#	file4.gen 01/04/2021 15:04:07    messages
+##############################################################
+ ------------------------------- 
+  ROBOTRAN - Symbolic Generator 
+  Version 6.6 (build : february 22, 2008) 
+  Pr. Paul FISETTE - 1990..1994 
+  Dr. Tony POSTIAU - 2000..2004 
+ ------------------------------- 
+Symbolic generation file : /usr/local/robotran/users/LFSAB1504/upload/file4.gen
+Project : /usr/local/robotran/users/LFSAB1504/upload/Car.mbs
+F18 : Constraints Quadratic Velocity Terms (Jdqd)
+nombre de contraintes �lmimin�es : 2
+Symbolic Equations Generation...Done
+Equations list processing... 
+Selecting usefull equations 
+Building result equations list... 
+Removing useless equations... 
+251 useless equations removed 
+251 Equations removed from memory 
+Substitution of variables with a single occurence 
+Counting operations ... 
+Building hierarchical structure... 
+Equations list processing...Done 
+Printing Equations... 
+Printing Equations...Done 
+Deallocating Memory...  
+286 Equations removed from memory 
+Removing 7291 expressions... 
+0 expressions remaining in memory 
+
+--
+Done
+
+##############################################################
+#	file1b.gen 01/04/2021 15:04:08    messages
+##############################################################
+ ------------------------------- 
+  ROBOTRAN - Symbolic Generator 
+  Version 6.6 (build : february 22, 2008) 
+  Pr. Paul FISETTE - 1990..1994 
+  Dr. Tony POSTIAU - 2000..2004 
+ ------------------------------- 
+Symbolic generation file : /usr/local/robotran/users/LFSAB1504/upload/file1b.gen
+Project : /usr/local/robotran/users/LFSAB1504/upload/Car.mbs
+F 6 : Sensors Kinematical Informations (sens) 
+Symbolic Equations Generation...Done
+Equations list processing... 
+Selecting usefull equations 
+Building result equations list... 
+Removing useless equations... 
+2022 useless equations removed 
+2022 Equations removed from memory 
+Substitution of variables with a single occurence 
+Counting operations ... 
+Building hierarchical structure... 
+Equations list processing...Done 
+Printing Equations... 
+Printing Equations...Done 
+Deallocating Memory...  
+3897 Equations removed from memory 
+Removing 39251 expressions... 
+0 expressions remaining in memory 
+
+--
+Done
+
+##############################################################
+#	file0.gen 01/04/2021 15:04:08    messages
+##############################################################
+ ------------------------------- 
+  ROBOTRAN - Symbolic Generator 
+  Version 6.6 (build : february 22, 2008) 
+  Pr. Paul FISETTE - 1990..1994 
+  Dr. Tony POSTIAU - 2000..2004 
+ ------------------------------- 
+Symbolic generation file : /usr/local/robotran/users/LFSAB1504/upload/file0.gen
+Project : /usr/local/robotran/users/LFSAB1504/upload/Car.mbs
+F 1 : Direct Dynamics (Semi-Explicit formulation) : RNEA
+Generating the forward kinematics equations 
+Generating the backward dynamics equations 
+Symbolic Equations Generation...Done
+Equations list processing... 
+Selecting usefull equations 
+Building result equations list... 
+Removing useless equations... 
+1227 useless equations removed 
+1227 Equations removed from memory 
+Substitution of variables with a single occurence 
+Counting operations ... 
+Building hierarchical structure... 
+Equations list processing...Done 
+Printing Equations... 
+Printing Equations...Done 
+Deallocating Memory...  
+1770 Equations removed from memory 
+Removing 40846 expressions... 
+0 expressions remaining in memory 
+
+--
+Done
+
+##############################################################
+#	file6.gen 01/04/2021 15:04:08    messages
+##############################################################
+ ------------------------------- 
+  ROBOTRAN - Symbolic Generator 
+  Version 6.6 (build : february 22, 2008) 
+  Pr. Paul FISETTE - 1990..1994 
+  Dr. Tony POSTIAU - 2000..2004 
+ ------------------------------- 
+Symbolic generation file : /usr/local/robotran/users/LFSAB1504/upload/file6.gen
+Project : /usr/local/robotran/users/LFSAB1504/upload/Car.mbs
+F27 : Point to point Link3D Forces (frc,trq,Flink3D) 
+Symbolic Equations Generation Aborted !!
+Deallocating Memory...  
+89 Equations removed from memory 
+Removing 965 expressions... 
+0 expressions remaining in memory 
+
+--
+Done
+
+##############################################################
+#	file5.gen 01/04/2021 15:04:08    messages
+##############################################################
+ ------------------------------- 
+  ROBOTRAN - Symbolic Generator 
+  Version 6.6 (build : february 22, 2008) 
+  Pr. Paul FISETTE - 1990..1994 
+  Dr. Tony POSTIAU - 2000..2004 
+ ------------------------------- 
+Symbolic generation file : /usr/local/robotran/users/LFSAB1504/upload/file5.gen
+Project : /usr/local/robotran/users/LFSAB1504/upload/Car.mbs
+F19 : External Forces
+Symbolic Equations Generation...Done
+Equations list processing... 
+Selecting usefull equations 
+Building result equations list... 
+Removing useless equations... 
+351 useless equations removed 
+351 Equations removed from memory 
+Substitution of variables with a single occurence 
+Counting operations ... 
+Building hierarchical structure... 
+Equations list processing...Done 
+Printing Equations... 
+Printing Equations...Done 
+Deallocating Memory...  
+648 Equations removed from memory 
+Removing 8328 expressions... 
+0 expressions remaining in memory 
+
+--
+Done
+
+##############################################################
+#	file2.gen 01/04/2021 15:04:08    messages
+##############################################################
+ ------------------------------- 
+  ROBOTRAN - Symbolic Generator 
+  Version 6.6 (build : february 22, 2008) 
+  Pr. Paul FISETTE - 1990..1994 
+  Dr. Tony POSTIAU - 2000..2004 
+ ------------------------------- 
+Symbolic generation file : /usr/local/robotran/users/LFSAB1504/upload/file2.gen
+Project : /usr/local/robotran/users/LFSAB1504/upload/Car.mbs
+F 7 : Point to point Link Forces (frc,trq,Flnk) 
+Generation of the inter body forces equations 
+Symbolic Equations Generation...Done
+Equations list processing... 
+Selecting usefull equations 
+Building result equations list... 
+Removing useless equations... 
+105 useless equations removed 
+105 Equations removed from memory 
+Substitution of variables with a single occurence 
+Counting operations ... 
+Building hierarchical structure... 
+Equations list processing...Done 
+Printing Equations... 
+Printing Equations...Done 
+Deallocating Memory...  
+272 Equations removed from memory 
+Removing 2289 expressions... 
+0 expressions remaining in memory 
+
+--
+Done
+
+##############################################################
+#	file1.gen 01/04/2021 15:04:08    messages
+##############################################################
+ ------------------------------- 
+  ROBOTRAN - Symbolic Generator 
+  Version 6.6 (build : february 22, 2008) 
+  Pr. Paul FISETTE - 1990..1994 
+  Dr. Tony POSTIAU - 2000..2004 
+ ------------------------------- 
+Symbolic generation file : /usr/local/robotran/users/LFSAB1504/upload/file1.gen
+Project : /usr/local/robotran/users/LFSAB1504/upload/Car.mbs
+F 6 : Sensors Kinematical Informations (sens) 
+Symbolic Equations Generation...Done
+Equations list processing... 
+Selecting usefull equations 
+Building result equations list... 
+Removing useless equations... 
+491 useless equations removed 
+491 Equations removed from memory 
+Substitution of variables with a single occurence 
+Counting operations ... 
+Building hierarchical structure... 
+Equations list processing...Done 
+Printing Equations... 
+Printing Equations...Done 
+Deallocating Memory...  
+1066 Equations removed from memory 
+Removing 12122 expressions... 
+0 expressions remaining in memory 
+
+--
+Done

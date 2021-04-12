@@ -1,0 +1,42 @@
+<launch>
+
+    <machine 
+       name="laptop" 
+       address="192.168.100.1"
+       env-loader="/opt/ros/melodic/env.sh"
+     />
+    
+    <machine 
+       name="raspberry" 
+       address="192.168.100.2"  
+       env-loader="/home/piano_haptic/catkin_ws/devel/raspberry_env.sh"
+    />
+
+        <node 
+           machine="laptop"
+           pkg="ros_rob" 
+           name="avoid_real" 
+           type="exe_Car_avoid" 
+           args="_speed:=120.0"
+           required="true"
+         />
+       
+        <node 
+           machine="laptop"
+           pkg="ros_rob" 
+           name="avoid_right_compute" 
+           type="exe_Car_avoid_right" 
+           args="_speed:=120.0"
+         />
+
+        <node 
+           machine="laptop"
+           pkg="ros_rob" 
+           name="avoid_left_compute" 
+           type="exe_Car_avoid_left" 
+           args="_speed:=120.0"
+         />
+
+
+
+</launch>
