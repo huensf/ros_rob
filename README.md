@@ -13,6 +13,10 @@ After that, in order to have a better comprehension and management of ROS, you c
 Note that this ROS package has been written and tested on Linux distribution. 
 
 The ROS versions used here are *Melodic* for the PC (master) and *Noetic* for the Raspberry's (slaves) and the ROS compiler used is *catkin*. The nodes are written in C++.
+
+> REMARK:
+>
+> If you use another version of ROS, you should update the ROS version names in the `CmakeLists.txt`. See the [ROS support](http://wiki.ros.org/Distributions) on that matter. 
  
 ## Installation and configuration of Robotran
 For using Robotran on Linux you need to install [MBsysPad](http://robotran-doc.git-page.immc.ucl.ac.be/Installation-Instruction/Linux/MBsysPad.html) and [MBsysC](http://robotran-doc.git-page.immc.ucl.ac.be/Installation-Instruction/Linux/MBsysC.html) in order to use the C/C++ version of Robotran. 
