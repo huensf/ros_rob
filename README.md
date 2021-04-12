@@ -1,5 +1,5 @@
 # Ros_rob
-This is a ROS package that allows you to run a Robotran project and publish/receive data on ROS topics. 
+This is a ROS package that allows you to run a Robotran project and publish/receive data on ROS topics. It is complementary to [*ros_rasp*](https://git.immc.ucl.ac.be/huensf/ros_rasp) and [*ros_rasp2*](https://git.immc.ucl.ac.be/huensf/ros_rasp2).
 
 Here specially is an example where you can drive a car with a steerwheel: the position and velocity of this latter are send on a ROS topic and the the torque in the steerwheel is received via another one. A third topic allows to receive data about the two pedals with which you can modify the speed of the vehicle.
 
@@ -56,13 +56,13 @@ This tutorial assumes you followed the **Installation and configuration of ROS**
          
          target_link_libraries(${Executable} -lpthread)
 
-5) Change the extension of the Robotran *main.c* by *main.cpp*. Change the content of the main with the template *.main_robotran_template.cpp* and follow the change instructions inside the template. 
+5) Change the extension of the Robotran *main.c* by *main.cpp*. Change the content of the main with the template [*.main_robotran_template.cpp*](https://git.immc.ucl.ac.be/huensf/ros_rob/-/blob/master/.main_robotran_template.cpp) and follow the change instructions inside the template. 
 
-6) As you can see at point 5. and 6. we need to use a user model structure from Robotran. Follow [the user model tutorial for structures](http://robotran-doc.git-page.immc.ucl.ac.be/usermodelstructurec/) in order to initialize it in *MBSysPad* and create an header file (also see [thread_struct.h](https://git.immc.ucl.ac.be/tuerlinckxt/ros_rob/-/blob/master/src/Car/userfctR/thread_struct.h) for an example of declaration of the structure). This structure contains pointeur to function like *give_torque_access* wich allows ROS publisher and suscriber to have access to *mbs_data* without segmentation fault cause of the multithreading. After that you can give the access to the ROS publisher and suscriber in all the user function with :
+6) As you can see at point 5. and 6. we need to use a user model structure from Robotran. Follow [the user model tutorial for structures](http://robotran-doc.git-page.immc.ucl.ac.be/usermodelstructurec/) in order to initialize it in *MBSysPad* and create an header file (also see [*thread_struct.h*](https://git.immc.ucl.ac.be/huensf/ros_rob/-/blob/master/src/Car/userfctR/thread_struct.h) for an example of declaration of the structure). This structure contains pointer to function like *give_torque_access* wich allows ROS publisher and suscriber to have access to *mbs_data* without segmentation fault cause of the multithreading. After that you can give the access to the ROS publisher and suscriber in all the user function with :
  
          (*mbs_data->user_model->thread.thread_struct->pointeur_<name_of_access_function>)();
          
- 7) **Note** : the main of Robotran is now in C++ but the user functions that you way write are usually in C and call by this C++ function. You can have a look on [Name Mangling and extern “C” in C++](https://www.geeksforgeeks.org/extern-c-in-c/) to ensure that the C++ compiler behaves like a C compiler for this functions.  
+ 7) **Note** : the main of Robotran is now in C++ but the user functions that you will use are usually in C and are called by this C++ function. You can have a look on [Name Mangling and extern “C” in C++](https://www.geeksforgeeks.org/extern-c-in-c/) to ensure that the C++ compiler behaves like a C compiler for thess functions.  
 
  8) Go to the catkin_ws folder et compile/build it with :`~/catkin_ws$ catkin_make`
  9) Run `$ roscore` on a terminal. 
@@ -74,10 +74,10 @@ This tutorial assumes you followed the **Installation and configuration of ROS**
 
 If you need to deal with several Robotran projects, just follow the above instructions one more time with two exeptions :
 
-  * At the point **3** you can have only one link with a Robotran CMakeLists (only one *add_sudirectory*). 
-  * At the point **8**, before compile/build your workspace you need to delete the *ros_rob* folder in the *build* folder. 
+  * At the point 3. you can have only one link with a Robotran CMakeLists (only one *add_subdirectory*). 
+  * At the point 8., before compile/build your workspace you need to delete the *ros_rob* folder in the *build* folder. 
 
-This means that you can compile and build only one Robotran project at a time. But once the new ROS executbale is created (here the *exe_your_project_name*) you can run wich you want. 
+This means that you can compile and build only one Robotran project at a time. But once the new ROS executable is created (here the *exe_your_project_name*) you can run which you want. 
 
 ### Use your own ROS message
 
